@@ -9,7 +9,7 @@ data.pop(2)
 data[2] = (17, (18, 19, 15))
 print(tuple(data))
 
-
+'im seeing how git works lmao'
 print(data[2][0])
 print(data[2][1][1])
 
