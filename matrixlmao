@@ -1,0 +1,15 @@
+a = [[1,2,3],
+     [4,5,6],
+     [7,8,9]]
+b = [[1,2,3,4 ],
+     [4,5,6,7 ],
+     [7,8,9,10]]
+prod = [[0,0,0,0],
+        [0,0,0,0],
+        [0,0,0,0]]
+
+for i in range(len(a)):
+    for j in range(len(b[0])):
+        prod[i][j] = sum([a[i][p] * b[p][j] for p in range(len(b))])
+    print(prod[i])
+

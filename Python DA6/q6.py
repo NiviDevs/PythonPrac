@@ -1,0 +1,5 @@
+f = open("practice.txt", "r")
+data = f.read()
+data = data.replace("\n", " ").split()
+print(len(data))
+f.close()
