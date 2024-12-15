@@ -9,6 +9,7 @@ def permutations(lst):
     return permutations
 
 def sum_nested(lst):
+    
     if not lst:
         return 0
     if isinstance(lst[0], list):
