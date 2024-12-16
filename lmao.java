@@ -10,6 +10,8 @@ public class lmao{
     while(start <= end){
         if(arr[mid] == target){
             System.out.println("Found at index " + mid);
+            System.out.println("Found at index " + mid);
+            
             break;
         }
         else if(arr[mid] < target){
