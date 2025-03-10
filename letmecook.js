@@ -9,6 +9,7 @@ const inp = rl.question("Enter number", (input)=>{
 });
 
 rl.close()
+n = 10
 
 for (let index = 1; index <= n; index += 2) {
 
